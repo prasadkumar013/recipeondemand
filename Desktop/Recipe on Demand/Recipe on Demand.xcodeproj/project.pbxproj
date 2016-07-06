@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2248B7051D21D81100E3C3AC /* image_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2248B7041D21D81100E3C3AC /* image_placeholder.png */; };
+		2250C76D1D1F927F00527FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250C76C1D1F927F00527FA0 /* AppDelegate.swift */; };
+		2250C76F1D1F927F00527FA0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250C76E1D1F927F00527FA0 /* MasterViewController.swift */; };
+		2250C7711D1F927F00527FA0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250C7701D1F927F00527FA0 /* DetailViewController.swift */; };
+		2250C7741D1F927F00527FA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2250C7721D1F927F00527FA0 /* Main.storyboard */; };
+		2250C7761D1F927F00527FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2250C7751D1F927F00527FA0 /* Assets.xcassets */; };
+		843A3F701D28A5E0001860A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843A3F6F1D28A5E0001860A5 /* LaunchScreen.xib */; };
+		8463A3F11D2B39BD00F0DF0F /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463A3F01D2B39BD00F0DF0F /* splashScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2248B7041D21D81100E3C3AC /* image_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_placeholder.png; sourceTree = "<group>"; };
+		2250C7691D1F927F00527FA0 /* Recipe on Demand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe on Demand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2250C76C1D1F927F00527FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2250C76E1D1F927F00527FA0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2250C7701D1F927F00527FA0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2250C7731D1F927F00527FA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2250C7751D1F927F00527FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2250C77A1D1F927F00527FA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843A3F6F1D28A5E0001860A5 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		8463A3F01D2B39BD00F0DF0F /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2250C7661D1F927F00527FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2250C7601D1F927F00527FA0 = {
+			isa = PBXGroup;
+			children = (
+				2250C76B1D1F927F00527FA0 /* Recipe on Demand */,
+				2250C76A1D1F927F00527FA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2250C76A1D1F927F00527FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2250C7691D1F927F00527FA0 /* Recipe on Demand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2250C76B1D1F927F00527FA0 /* Recipe on Demand */ = {
+			isa = PBXGroup;
+			children = (
+				2250C76C1D1F927F00527FA0 /* AppDelegate.swift */,
+				2250C76E1D1F927F00527FA0 /* MasterViewController.swift */,
+				2250C7701D1F927F00527FA0 /* DetailViewController.swift */,
+				2250C7721D1F927F00527FA0 /* Main.storyboard */,
+				2250C7751D1F927F00527FA0 /* Assets.xcassets */,
+				2250C77A1D1F927F00527FA0 /* Info.plist */,
+				843A3F6F1D28A5E0001860A5 /* LaunchScreen.xib */,
+				2248B7041D21D81100E3C3AC /* image_placeholder.png */,
+				8463A3F01D2B39BD00F0DF0F /* splashScreen.png */,
+			);
+			path = "Recipe on Demand";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2250C7681D1F927F00527FA0 /* Recipe on Demand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2250C77D1D1F927F00527FA0 /* Build configuration list for PBXNativeTarget "Recipe on Demand" */;
+			buildPhases = (
+				2250C7651D1F927F00527FA0 /* Sources */,
+				2250C7661D1F927F00527FA0 /* Frameworks */,
+				2250C7671D1F927F00527FA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe on Demand";
+			productName = "Recipe on Demand";
+			productReference = 2250C7691D1F927F00527FA0 /* Recipe on Demand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2250C7611D1F927F00527FA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aadya;
+				TargetAttributes = {
+					2250C7681D1F927F00527FA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MEDU9DT3R2;
+					};
+				};
+			};
+			buildConfigurationList = 2250C7641D1F927F00527FA0 /* Build configuration list for PBXProject "Recipe on Demand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2250C7601D1F927F00527FA0;
+			productRefGroup = 2250C76A1D1F927F00527FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2250C7681D1F927F00527FA0 /* Recipe on Demand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2250C7671D1F927F00527FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843A3F701D28A5E0001860A5 /* LaunchScreen.xib in Resources */,
+				2248B7051D21D81100E3C3AC /* image_placeholder.png in Resources */,
+				2250C7761D1F927F00527FA0 /* Assets.xcassets in Resources */,
+				8463A3F11D2B39BD00F0DF0F /* splashScreen.png in Resources */,
+				2250C7741D1F927F00527FA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2250C7651D1F927F00527FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2250C7711D1F927F00527FA0 /* DetailViewController.swift in Sources */,
+				2250C76F1D1F927F00527FA0 /* MasterViewController.swift in Sources */,
+				2250C76D1D1F927F00527FA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2250C7721D1F927F00527FA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2250C7731D1F927F00527FA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2250C77B1D1F927F00527FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2250C77C1D1F927F00527FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2250C77E1D1F927F00527FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Recipe on Demand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Prasad-Kumar.Recipe-on-Demand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2250C77F1D1F927F00527FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Recipe on Demand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Prasad-Kumar.Recipe-on-Demand";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2250C7641D1F927F00527FA0 /* Build configuration list for PBXProject "Recipe on Demand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2250C77B1D1F927F00527FA0 /* Debug */,
+				2250C77C1D1F927F00527FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2250C77D1D1F927F00527FA0 /* Build configuration list for PBXNativeTarget "Recipe on Demand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2250C77E1D1F927F00527FA0 /* Debug */,
+				2250C77F1D1F927F00527FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2250C7611D1F927F00527FA0 /* Project object */;
+}
